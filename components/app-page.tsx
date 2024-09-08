@@ -111,7 +111,7 @@ export function AppPage() {
     <div
       className="min-h-screen flex flex-col items-center justify-center p-4 relative overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "url(/Hero-Background-notecode.svg)",
+        backgroundImage: "url(/code_notecode/Hero-Background-notecode.svg)",
       }}
     >
       {/* Decorative elements */}
@@ -121,7 +121,7 @@ export function AppPage() {
         <div className="flex items-center space-x-2">
           <div className="w-6 h-6 bg-purple-700 rounded-full"></div>
           <Image
-            src="/NoteCodeLogo.svg"
+            src="/code_notecode/NoteCodeLogo.svg"
             alt="NoteCode Logo"
             width={150}
             height={150}
@@ -195,7 +195,12 @@ export function AppPage() {
             onClick={handleShare}
             className="bg-[#406AFF] hover:bg-[#3355CC] text-[#FFFFFE] px-8 flex items-center space-x-2 rounded-full"
           >
-            <Image src="/share.svg" alt="Share Icon" width={20} height={20} />
+            <Image
+              src="/code_notecode/share.svg"
+              alt="Share Icon"
+              width={20}
+              height={20}
+            />
             <span>Share</span>
           </Button>
         </div>
