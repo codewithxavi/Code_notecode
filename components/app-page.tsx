@@ -101,7 +101,7 @@ export function AppPage() {
 
   const handleShare = () => {
     const encodedCode = btoa(encodeURIComponent(code));
-    const shareUrl = `${window.location.origin}${pathname}?code=${encodedCode}`;
+    const shareUrl = `${window.location.origin}${pathname}code_notecode?code=${encodedCode}`;
     navigator.clipboard.writeText(shareUrl).then(() => {
       alert("URL copied to clipboard!");
     });
