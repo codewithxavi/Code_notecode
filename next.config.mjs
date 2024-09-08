@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig = {
-  assetPrefix: isProd ? "/code_notecode/" : "",
-  basePath: isProd ? "/code_notecode/" : "",
+  basePath: "/code_notecode",
+  assetPrefix: "/code_notecode/", // assetPrefix requires the trailing slash
   trailingSlash: true,
   output: "export",
   experimental: {
