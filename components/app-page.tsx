@@ -196,7 +196,7 @@ export function AppPage() {
             className="bg-[#406AFF] hover:bg-[#3355CC] text-[#FFFFFE] px-8 flex items-center space-x-2 rounded-full"
           >
             <Image
-              src="/code_notecode/share.svg"
+              src="/code_notecode/Share.svg"
               alt="Share Icon"
               width={20}
               height={20}
