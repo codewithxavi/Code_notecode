@@ -111,7 +111,7 @@ export function AppPage() {
     <div
       className="min-h-screen flex flex-col items-center justify-center p-4 relative overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "url(/code_notecode/Hero-Background-notecode.svg)",
+        backgroundImage: "url(/Code_notecode/Hero-Background-notecode.svg)",
       }}
     >
       {/* Decorative elements */}
@@ -121,7 +121,7 @@ export function AppPage() {
         <div className="flex items-center space-x-2">
           <div className="w-6 h-6 bg-purple-700 rounded-full"></div>
           <Image
-            src="/code_notecode/NoteCodeLogo.svg"
+            src="/Code_notecode/NoteCodeLogo.svg"
             alt="NoteCode Logo"
             width={150}
             height={150}
@@ -196,7 +196,7 @@ export function AppPage() {
             className="bg-[#406AFF] hover:bg-[#3355CC] text-[#FFFFFE] px-8 flex items-center space-x-2 rounded-full"
           >
             <Image
-              src="/code_notecode/Share.svg"
+              src="/Code_notecode/Share.svg"
               alt="Share Icon"
               width={20}
               height={20}
@@ -217,7 +217,7 @@ export function AppPage() {
           </p>
           <div className="flex space-x-4">
             <a
-              href="https://github.com/codewithxavi"
+              href="https://github.com/codewithxavi/Code_notecode"
               target="_blank"
               rel="noopener noreferrer"
               title="GitHub"
